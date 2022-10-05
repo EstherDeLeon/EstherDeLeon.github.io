@@ -15,7 +15,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Profile section
     [params.profile]
         name = "Sada Theme"
-        photo = "images/profile.jpg"
+        photo = "images/mar.jpg"
 
     # Section for links to social websites
     [params.social]
