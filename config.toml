@@ -1,21 +1,21 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
+languageCode = "es-es"
 theme = "sada"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
-    name = "example.org"
-    title = "Sada Theme"
-    author = "Darshan Baral"
-    description = "Simple portfolio theme"
-    copyright = "Custom copyright message"
+    name = ""
+    title = "Portfolio"
+    author = "Esther Guzmán"
+    description = "Desarrolladora web"
+    copyright = "@copyright"
     theme = "light" # `dark` or `light`
     useResources = false
 
     # Profile section
     [params.profile]
-        name = "Sada Theme"
-        photo = "images/mar.jpg"
+        name = "Esther Guzmán"
+        photo = "/images/mar.jpg"
 
     # Section for links to social websites
     [params.social]
@@ -43,94 +43,87 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     # Education section
     [params.education]
-        title = "Education"
+        title = "Educación"
 
         [[params.education.list]]
-        degree = "Masters in Degree 1"
-        college = "University Number 1"
-        dates = "2016 - 2018"
-        thesis_title = "Title of the dissertation"
-        thesis_link = "#"
+        degree = "Grado Superior de Desarrollo de aplicaciones web (DAW)"
+        college = "CPIFP Los Enlaces"
+        dates = "2021 - 2023"
+        
 
-        [[params.education.list]]
-        degree = "Bachelors in Degree 2"
-        college = "University Number 2"
-        dates = "2010 - 2014"
 
     # Languages section
     [params.language]
-        title = "Languages"
+        title = "Idiomas"
 
         [[params.language.list]]
-        language = "English"
-        level = "Fluent"
+        language = "Español"
+        level = "Nativo"
+
+        [[params.language.list]]
+        language = "Inglés"
+        level = "Medio"
 				
         [[params.language.list]]
-        language = "Bird"
-        level = "Basic"
+        language = "Chino"
+        level = "Básico"
 
     # Interests section
     [params.hobbies]
         title = "Hobbies"
 
         [[params.hobbies.list]]
-        interest = "Travelling"
+        interest = "Aprender cosas nuevas"
 		
 		[[params.hobbies.list]]
-        interest = "Music"
+        interest = "Música"
 
         [[params.hobbies.list]]
-        interest = "Flying"
+        interest = "Viajar"
 
         [[params.hobbies.list]]
-        interest = "Baking"
+        interest = "Cocinar"
 
     [params.aboutme]
-        description = "Tagline. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        description = "Desarrolladora web especializada en el diseño y desarrollo de webs a medida, de acuerdo con los intereses y necesidades concretas de cada cliente."
 
     # Experiences section
     [params.experiences]
-        title = "Experiences"
+        title = "Experiencia"
 
         [[params.jobs.list]]
-        position = "Job Number 1"
-        dates = "2018 - *Present*"
-		link = "#"
-        company = "Company name 1"
+        position = "Junior Front-end Developer"
+        dates = "Marzo(2022) - *Presente*.(FCT)"
+		link = "https://www2.deloitte.com/es/es/footerlinks/office-locator/Oficinas-de-Deloitte-en-Espana/zaragoza.html"
+        company = "Deloitte"
 
-        [[params.jobs.list]]
-        position = "Job Number 2"
-        dates = "2016 - 2018"
-		link = "#"
-        company = "Company name 2"
-        details = "Brief description of the `work` done. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        
 
     # Projects section
     [params.projects]
-        title = "Projects"
+        title = "Proyectos"
 
         [[params.projects.list]]
-        title = "Awesome Project 1"
-        url = "#"
-        description = "Description of the *awesome* project 1"
+        title = "Proyecto Libros"
+        url = "https://drive.google.com/drive/folders/1ph-L_0UYYx4_zshrrZhTqr57LlhRc5ND"
+        description = "Programa de Java que simula una web de libros, en la que puedes crear guardar y visualizar libros y autores..."
 		
 		[[params.projects.list]]
-        title = "Awesome Project 2"
-        url = "#"
-        description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-
+        title = "Proyecto web empresa ACME"
+        url = "https://estherdeleon.github.io/acme/"
+        description = "Desarrollo total de una web para la empresa ACME, con tecnologías como markdown, toml y git."
     # Skills section
     [params.skills]
-        title = "Skills"
+        title = "Conocimientos"
 
         [[params.skills.list]]
-        skill = "Skill 1, Skill 2"
+        skill = "HTML5"
         skillrating = 95 # out of 100
                 
         [[params.skills.list]]
-        skill = "Skill 3"
+        skill = "CSS3"
         skillrating = 90
 		
         [[params.skills.list]]
-        skill = "Skill 4"
-        skillrating = 80
+        skill = "Java"
+        skillrating = 70
