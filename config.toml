@@ -1,20 +1,20 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
+languageCode = "es-es"
 theme = "sada"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
-    name = "example.org"
-    title = "Sada Theme"
+    name = "Portfolio"
+    title = "Esther Guzmán"
     author = "Darshan Baral"
-    description = "Simple portfolio theme"
-    copyright = "Custom copyright message"
+    description = " Desarrolladora web"
+    copyright = "@copyright"
     theme = "light" # `dark` or `light`
     useResources = false
 
     # Profile section
     [params.profile]
-        name = "Sada Theme"
+        name = "Esther Guzmán"
         photo = "images/mar.jpg"
 
     # Section for links to social websites
@@ -43,7 +43,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     # Education section
     [params.education]
-        title = "Education"
+        title = "Educación"
 
         [[params.education.list]]
         degree = "Masters in Degree 1"
@@ -59,15 +59,15 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     # Languages section
     [params.language]
-        title = "Languages"
+        title = "Idiomas"
 
         [[params.language.list]]
-        language = "English"
-        level = "Fluent"
+        language = "Inglés"
+        level = "Medio"
 				
         [[params.language.list]]
-        language = "Bird"
-        level = "Basic"
+        language = "Chino"
+        level = "Básico"
 
     # Interests section
     [params.hobbies]
@@ -86,11 +86,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         interest = "Baking"
 
     [params.aboutme]
-        description = "Tagline. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        description = "Desarrolladora web con ..."
 
     # Experiences section
     [params.experiences]
-        title = "Experiences"
+        title = "Experiencia"
 
         [[params.jobs.list]]
         position = "Job Number 1"
@@ -107,7 +107,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     # Projects section
     [params.projects]
-        title = "Projects"
+        title = "Proyectos"
 
         [[params.projects.list]]
         title = "Awesome Project 1"
